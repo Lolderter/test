@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Solo Kahoot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-screen">
+        <h1>ХААА  а вот и тест!</h1>
+        <p>У тебя есть 20 секунд на каждый вопрос чтоб проверить насколько хорошо ты нас знаешь)</p>
+        <button id="start-btn" onclick="startGame()">Начать</button>
+    </div>
+
+    <div id="game-container" style="display: none;">
+        <div id="timer">20</div>
+        <h1 id="question-text"></h1>
+        <div class="grid" id="answer-options"></div>
+        <div id="score-board">Счет: <span id="score">0</span></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
